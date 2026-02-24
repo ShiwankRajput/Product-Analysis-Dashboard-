@@ -10,7 +10,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://product-analysis-dashboard-frontend.onrender.com/api",
+    origin: "https://product-analysis-dashboard-frontend.onrender.com",
     credentials: true
   })
 );

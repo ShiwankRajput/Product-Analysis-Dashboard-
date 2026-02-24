@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://product-analysis-dashboard-1.onrender.com",
+  baseURL: "https://product-analysis-dashboard-1.onrender.com/api",
   withCredentials: true
 });
 
